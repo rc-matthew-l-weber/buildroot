@@ -7,6 +7,7 @@
 AUFS_VERSION = $(call qstrip,$(BR2_PACKAGE_AUFS_VERSION))
 AUFS_LICENSE = GPL-2.0
 AUFS_LICENSE_FILES = COPYING
+AUFS_CPE_ID_VERSION = 4.1
 
 ifeq ($(BR2_PACKAGE_AUFS_SERIES),3)
 AUFS_SITE = http://git.code.sf.net/p/aufs/aufs3-standalone

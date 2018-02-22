@@ -8,6 +8,8 @@ AUDIT_VERSION = 2.8.4
 AUDIT_SITE = http://people.redhat.com/sgrubb/audit
 AUDIT_LICENSE = GPL-2.0+ (programs), LGPL-2.1+ (libraries)
 AUDIT_LICENSE_FILES = COPYING COPYING.LIB
+AUDIT_CPE_ID_VENDOR = linux_audit_project
+AUDIT_CPE_ID_NAME = linux_audit
 
 AUDIT_INSTALL_STAGING = YES
 

@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-OPENRESOLV_VERSION = fe4e1ec4e2be2adfc1530ade94ebb30aa6f51540
+OPENRESOLV_VERSION = 3.9.0-9-gfe4e1ec
 OPENRESOLV_SITE = $(call github,rsmarples,openresolv,$(OPENRESOLV_VERSION))
 OPENRESOLV_LICENSE = BSD-2-Clause
 OPENRESOLV_LICENSE_FILES = LICENSE

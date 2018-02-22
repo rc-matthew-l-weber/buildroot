@@ -10,5 +10,6 @@ BC_SITE = http://alpha.gnu.org/gnu/bc
 BC_DEPENDENCIES = host-flex
 BC_LICENSE = GPL-2.0+, LGPL-2.1+
 BC_LICENSE_FILES = COPYING COPYING.LIB
+BC_CPE_ID_VENDOR = gnu
 
 $(eval $(autotools-package))

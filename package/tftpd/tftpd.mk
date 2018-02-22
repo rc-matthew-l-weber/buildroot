@@ -8,6 +8,8 @@ TFTPD_VERSION = 5.2
 TFTPD_SOURCE = tftp-hpa-$(TFTPD_VERSION).tar.xz
 TFTPD_SITE = $(BR2_KERNEL_MIRROR)/software/network/tftp/tftp-hpa
 TFTPD_CONF_OPTS = --without-tcpwrappers
+TFTPD_CPE_ID_VENDOR = $(TFTPD_NAME)-hpa_project
+TFTPD_CPE_ID_NAME = $(TFTPD_NAME)-hpa
 
 define TFTPD_INSTALL_TARGET_CMDS
 	$(INSTALL) -D $(@D)/tftp/tftp $(TARGET_DIR)/usr/bin/tftp

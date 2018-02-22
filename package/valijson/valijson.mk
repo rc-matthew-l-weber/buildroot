@@ -5,6 +5,7 @@
 ################################################################################
 
 VALIJSON_VERSION = v0.1
+VALIJSON_CPE_ID_VERSION = 0.1
 VALIJSON_SITE = $(call github,tristanpenman,valijson,$(VALIJSON_VERSION))
 VALIJSON_LICENSE = BSD-2-Clause
 VALIJSON_LICENSE_FILES = LICENSE

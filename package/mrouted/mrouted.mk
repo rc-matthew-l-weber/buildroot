@@ -9,6 +9,7 @@ MROUTED_SITE = $(call github,troglobit,mrouted,$(MROUTED_VERSION))
 MROUTED_DEPENDENCIES = host-bison
 MROUTED_LICENSE = BSD-3-Clause
 MROUTED_LICENSE_FILES = LICENSE
+MROUTED_CPE_ID_VENDOR = troglobit
 
 define MROUTED_CONFIGURE_CMDS
 	(cd $(@D); \

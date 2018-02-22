@@ -5,6 +5,7 @@
 ################################################################################
 
 LIBATOMIC_OPS_VERSION = v7.6.6
+LIBATOMIC_OPS_CPE_ID_VERSION = 7.6.6
 LIBATOMIC_OPS_SITE = $(call github,ivmai,libatomic_ops,$(LIBATOMIC_OPS_VERSION))
 LIBATOMIC_OPS_AUTORECONF = YES
 

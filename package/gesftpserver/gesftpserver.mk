@@ -9,6 +9,9 @@ GESFTPSERVER_SOURCE = sftpserver-$(GESFTPSERVER_VERSION).tar.gz
 GESFTPSERVER_SITE = http://www.greenend.org.uk/rjk/sftpserver
 GESFTPSERVER_LICENSE = GPL-2.0+
 GESFTPSERVER_LICENSE_FILES = COPYING
+GESFTPSERVER_CPE_ID_VENDOR = green_end
+GESFTPSERVER_CPE_ID_NAME = sftpserver
+
 # forgets to link against pthread when cross compiling
 GESFTPSERVER_CONF_ENV = LIBS=-lpthread
 

@@ -5,11 +5,13 @@
 ################################################################################
 
 SQLITE_VERSION = 3250300
+SQLITE_CPE_ID_VERSION = 3.25.3
 SQLITE_SOURCE = sqlite-autoconf-$(SQLITE_VERSION).tar.gz
 SQLITE_SITE = https://www.sqlite.org/2018
 SQLITE_LICENSE = Public domain
 SQLITE_LICENSE_FILES = tea/license.terms
 SQLITE_INSTALL_STAGING = YES
+SQLITE_CPE_ID_VENDOR = $(SQLITE_NAME)
 
 ifeq ($(BR2_PACKAGE_SQLITE_STAT3),y)
 SQLITE_CFLAGS += -DSQLITE_ENABLE_STAT3

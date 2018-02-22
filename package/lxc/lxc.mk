@@ -8,6 +8,7 @@ LXC_VERSION = 3.1.0
 LXC_SITE = https://linuxcontainers.org/downloads/lxc
 LXC_LICENSE = LGPL-2.1+
 LXC_LICENSE_FILES = COPYING
+LXC_CPE_ID_VENDOR = linuxcontainers
 LXC_DEPENDENCIES = host-pkgconf
 LXC_INSTALL_STAGING = YES
 

@@ -5,6 +5,7 @@
 ################################################################################
 
 TINI_VERSION = v0.18.0
+TINI_CPE_ID_VERSION = 0.18.0
 TINI_SITE = $(call github,krallin,tini,$(TINI_VERSION))
 TINI_LICENSE = MIT
 TINI_LICENSE_FILES = LICENSE

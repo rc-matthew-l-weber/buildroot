@@ -5,9 +5,12 @@
 ################################################################################
 
 OPENSSH_VERSION = 7.9p1
+OPENSSH_CPE_ID_VERSION = 7.9
+OPENSSH_CPE_ID_VERSION_MINOR = p1
 OPENSSH_SITE = http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable
 OPENSSH_LICENSE = BSD-3-Clause, BSD-2-Clause, Public Domain
 OPENSSH_LICENSE_FILES = LICENCE
+OPENSSH_CPE_ID_VENDOR = openbsd
 OPENSSH_CONF_ENV = LD="$(TARGET_CC)" LDFLAGS="$(TARGET_CFLAGS)"
 OPENSSH_CONF_OPTS = \
 	--sysconfdir=/etc/ssh \

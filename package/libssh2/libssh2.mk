@@ -4,10 +4,11 @@
 #
 ################################################################################
 
-LIBSSH2_VERSION = 8b870ad771cbd9cd29edbb3dbb0878e950f868ab
+LIBSSH2_VERSION = 1.8.0-88-g8b870ad
 LIBSSH2_SITE = $(call github,libssh2,libssh2,$(LIBSSH2_VERSION))
 LIBSSH2_LICENSE = BSD
 LIBSSH2_LICENSE_FILES = COPYING
+LIBSSH2_CPE_ID_VENDOR = $(LIBSSH2_NAME)
 LIBSSH2_INSTALL_STAGING = YES
 LIBSSH2_CONF_OPTS = --disable-examples-build
 
