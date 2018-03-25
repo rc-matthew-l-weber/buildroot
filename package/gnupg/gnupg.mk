@@ -17,6 +17,7 @@ GNUPG_CONF_OPTS = \
 	--disable-regex \
 	--enable-sha256 \
 	--enable-sha512
+GNUPG_CPE_ID_VENDOR = $(GNUPG_NAME)
 
 HOST_GNUPG_DEPENDENCIES = host-zlib
 HOST_GNUPG_CONF_OPTS = \
